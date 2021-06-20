@@ -14,5 +14,5 @@ window.addEventListener('DOMContentLoaded', () => {
     mask('[name="phone"]');
     textChecked('[name="name"]');
     textChecked('[name="message"]');
-    showMoreCards('.button-styles','.styles-2');
+    showMoreCards('.button-styles','#styles .row');
 });
