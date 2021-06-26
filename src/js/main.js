@@ -6,6 +6,7 @@ import mask from './modules/mask';
 import textChecked from './modules/vheckValidText';
 import showMoreCards from './modules/showMoreCards';
 import calc from './modules/calc';
+import tabs from './modules/tabs';
 
 window.addEventListener('DOMContentLoaded', () => {
     modal();
@@ -17,4 +18,5 @@ window.addEventListener('DOMContentLoaded', () => {
     textChecked('[name="message"]');
     showMoreCards('.button-styles','#styles .row');
     calc('#size','#material','#options','.promocode','.calc-price');
+    tabs();
 });
