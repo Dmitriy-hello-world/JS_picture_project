@@ -1084,6 +1084,11 @@ h4 {
   margin-top: 2rem;
 }
 
+.often-questions .accordion-heading .active-style {
+  color: rgb(197, 26, 187);
+  border: none;
+}
+
 .often-questions .accordion-heading span {
   border-bottom: 2px dotted #333;
 }

@@ -8,6 +8,7 @@ import showMoreCards from './modules/showMoreCards';
 import calc from './modules/calc';
 import tabs from './modules/tabs';
 import changeImg from './modules/changeImg';
+import accordeon from './modules/accordeon';
 
 window.addEventListener('DOMContentLoaded', () => {
     modal();
@@ -21,4 +22,5 @@ window.addEventListener('DOMContentLoaded', () => {
     calc('#size','#material','#options','.promocode','.calc-price');
     tabs();
     changeImg('.sizes-block');
+    accordeon('.accordion-heading span','.accordion-block');
 });
