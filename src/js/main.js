@@ -7,6 +7,7 @@ import textChecked from './modules/vheckValidText';
 import showMoreCards from './modules/showMoreCards';
 import calc from './modules/calc';
 import tabs from './modules/tabs';
+import changeImg from './modules/changeImg';
 
 window.addEventListener('DOMContentLoaded', () => {
     modal();
@@ -19,4 +20,5 @@ window.addEventListener('DOMContentLoaded', () => {
     showMoreCards('.button-styles','#styles .row');
     calc('#size','#material','#options','.promocode','.calc-price');
     tabs();
+    changeImg('.sizes-block');
 });
