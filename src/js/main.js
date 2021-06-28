@@ -9,6 +9,7 @@ import calc from './modules/calc';
 import tabs from './modules/tabs';
 import changeImg from './modules/changeImg';
 import accordeon from './modules/accordeon';
+import burger from './modules/burger';
 
 window.addEventListener('DOMContentLoaded', () => {
     modal();
@@ -23,4 +24,5 @@ window.addEventListener('DOMContentLoaded', () => {
     tabs();
     changeImg('.sizes-block');
     accordeon('.accordion-heading span','.accordion-block');
+    burger('.burger','.burger-menu');
 });
