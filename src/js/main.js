@@ -10,6 +10,8 @@ import tabs from './modules/tabs';
 import changeImg from './modules/changeImg';
 import accordeon from './modules/accordeon';
 import burger from './modules/burger';
+import slowScroll from './modules/slowScroll';
+import drop from './modules/drop';
 
 window.addEventListener('DOMContentLoaded', () => {
     modal();
@@ -25,4 +27,6 @@ window.addEventListener('DOMContentLoaded', () => {
     changeImg('.sizes-block');
     accordeon('.accordion-heading span','.accordion-block');
     burger('.burger','.burger-menu');
+    slowScroll('.page-up');
+    drop('[name="upload"]');
 });
